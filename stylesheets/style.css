@@ -6,6 +6,10 @@ html, body {
 
 body {
   background: #f9f9f9;
+  background-image: url(rainOnWindow2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   color: #303030;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -76,7 +80,10 @@ blockquote {
   font-style: normal !important; }
 
 header {
-  text-align: center; }
+  text-align: center; 
+  color:#FFFFFF;
+  font-size:20px;
+  font-weight:bold;}
 
 footer {
   width: 100%;
@@ -94,7 +101,7 @@ footer {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   background: #fff;
   margin: 40px auto 20px;
   border-radius: 7px;
